@@ -50,13 +50,7 @@ def takeCommand():
         return "None"
     return query
 
-# def sendEmail(to,content):
-#     server = smtplib.SMTP('smtp.gmail.com',587)
-#     server.ehlo()
-#     server.starttls()
-#     server.login('datta.soham964@gmail.com','riXon@964')
-#     server.sendmail('datta.soham964@gmail.com', to,content)
-#     server.close()
+
 
 if __name__ == "__main__":
     wishMe()
@@ -102,16 +96,6 @@ if __name__ == "__main__":
             os.startfile(valopath)
     
 
-        # elif 'email to rixon' in query:
-        #     try:
-        #         speak("What should I say?")
-        #         content = takeCommand()
-        #         to = "datta.soham964@gmail.com"
-        #         sendEmail(to,content)
-        #         speak("Email has been sent!")
-        #     except Exception as e:
-        #         print(e)
-        #         speak("Sorry I'm not able to sent at this moment")    
 
             
 
